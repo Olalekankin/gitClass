@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+
+  .course-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .course-info div {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  #grid {
+    display: flex;
+    width: 65%;
+    align-items: center;
+  }
+  #grid, .class {
+    align-content: space-evenly;
+  }
+ 
+  .enrollments {
+    background-color: rgb(6, 6, 29);
+    height: 200px;
+    width: 300px;
+   
+  }
+  .course-created {
+    background-color: #ff6f00;
+    height: 200px;
+    width: 300px;
+  }
+  .discussions {
+    background-color: #ff6f00;
+    height: 200px;
+    width: 300px;
+  }
+  .course-info h2 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .course-info p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .gradebook-progress {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .gradebook {
+    display: flex;
+    align-items: center;
+  }
+  .gradebook, h3, button {
+    align-items: end;
+  }
+  .gradebook, button {
+    background-color: #ff6f00;
+  }
+  .gradebook, .student-progress {
+    background-color: #fff;
+    padding: 20px;
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #eee;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .progress {
+    background-color: #ff6f00;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .calendar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar h3 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .month h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .calendar-days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .day {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .highlight {
+    background-color: #ff6f00;
+    color: #fff;
+    border-radius: 50%;
+  }
+  
